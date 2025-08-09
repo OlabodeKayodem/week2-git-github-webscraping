@@ -1,4 +1,4 @@
-# week2-git-github-webscraping
+# Week 2 AI Saturday Assignment webscraping
 Week 2 Assessment for ML Flipped Cohort — Git &amp; GitHub, Web Scraping, This repository contains my submission for Week 2 of the ML Flipped Cohort.
 
 ## Project Overview
@@ -44,9 +44,9 @@ I chose to scrape **IBM Video Data** because it provides useful data that can be
 
 ## Tools & Environment
 - **Editor:** Visual Studio Code (VS Code)
-- **Language:** Python 3.x
-- **Libraries:** pandas, numpy
-- **OS:** Windows 11
+- **Language:** Python
+- **Libraries:** bs4, pandas
+
 
 ## Lessons Learned
 - Always check **file encoding** when importing CSVs.
