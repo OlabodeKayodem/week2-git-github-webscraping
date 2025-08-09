@@ -1,8 +1,5 @@
 # week2-git-github-webscraping
-Week 2 Assessment for ML Flipped Cohort — Git &amp; GitHub, Web Scraping
-# Week 2 Assessment — Git & GitHub, Web Scraping
-
-This repository contains my submission for Week 2 of the ML Flipped Cohort.
+Week 2 Assessment for ML Flipped Cohort — Git &amp; GitHub, Web Scraping, This repository contains my submission for Week 2 of the ML Flipped Cohort.
 
 ## Project Overview
 The goal is to:
@@ -11,7 +8,7 @@ The goal is to:
 - Push both the scraping code and the scraped dataset to this repository
 
 ## Website Chosen
-I chose to scrape **[Example Website Name](URL)** because it provides useful data that can be used for future ML projects.
+I chose to scrape **IBM Video Data** because it provides useful data that can be used for future ML projects.
 
 ## Project Timeline & Challenges Faced
 
@@ -23,8 +20,6 @@ I chose to scrape **[Example Website Name](URL)** because it provides useful dat
   - **Column Mismatch:** Unexpected headers due to an extra row in the dataset.
   - **Missing Values:** Several columns had missing data, requiring imputation or removal.
 
----
-
 ### 2. Transition to Book Dataset
 - **Goal:** Apply the same cleaning principles to a new dataset containing book information and currency values.
 - **Challenges:**
@@ -32,8 +27,6 @@ I chose to scrape **[Example Website Name](URL)** because it provides useful dat
   - **Encoding Problem:** The `Â` before the pound sign came from a UTF-8 file being misread as Windows-1252 or similar encoding.
   - **String-to-Number Conversion:** Needed to strip currency symbols and convert prices to `float` for calculation.
   - **Data Consistency:** Some price fields were blank or contained unexpected strings, which caused conversion errors.
-
----
 
 ### 3. Fixing the Currency Issue
 - **Approach Taken:**
@@ -49,15 +42,11 @@ I chose to scrape **[Example Website Name](URL)** because it provides useful dat
      ```
 - **Outcome:** Prices now display correctly as numeric values (`51.77` instead of `Â£51.77`).
 
----
-
 ## Tools & Environment
 - **Editor:** Visual Studio Code (VS Code)
 - **Language:** Python 3.x
 - **Libraries:** pandas, numpy
 - **OS:** Windows 11
-
----
 
 ## Lessons Learned
 - Always check **file encoding** when importing CSVs.
